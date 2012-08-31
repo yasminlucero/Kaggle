@@ -1,0 +1,90 @@
+---
+infochimps_schema:
+  title: Infochimps Simple Schema (ICSS)
+  version: 0.2.0
+  generated_at: Wed Feb 09 14:21:53 -0600 2011
+  url: "http://infochimps.com/datasets/age-adjusted-percent-distributions-of-body-mass-index-bmi-among-"
+  description: >-
+    This is an Infochimps Simple Schema (ICSS).
+
+    It describes data on Infochimps.com and is meant to be both human
+    and machine readable.
+
+    An ICSS file is distributed with every download on Infochimps and
+    is also available by request to the above URL.
+    
+    ICSS files bundled with downloads are generated at the time the
+    download was created so they can become out of date as changes are
+    made to the data.  If this ICSS came with data you downloaded then
+    it is possible that it is already out of date.  You can get the
+    most recent version at the URL above.
+
+dataset:
+  id:                  199
+  slug:                age-adjusted-percent-distributions-of-body-mass-index-bmi-among-
+  title:               Age-Adjusted Percent Distributions of Body Mass Index (BMI) Among Persons
+  link:                ~
+  url:                 "http://infochimps.com/datasets/age-adjusted-percent-distributions-of-body-mass-index-bmi-among-"
+  created_at:          ~
+  updated_at:          "2010-03-11 08:40:45 UTC"  
+  tag_list:          [ adjusted,age,america,among,bmi,body,census,demographics,distributions,government,index,mass,percent,persons,population ]
+  category_list:     [ "Social Sciences::Demographics::Large Scale Censuses" ]
+  created_by:
+    id:                2  
+    username:          Infochimps
+    institution:       Infochimps
+    link:              "http://blog.infochimps.org"
+    url:               "http://infochimps.com/users/2"
+  description: >-
+    The Statistical Abstract files are distributed by the "US Census Department":http://www.census.gov/population/www/popdata.html as Microsoft Excel files. These files have data mixed with notes and references, multiple tables per sheet, and, worst of all, the table headers are not easily matched to their rows and columns.
+    
+    A few files had extraneous characters in the title. These were corrected to be consistent. A few files have a sheet of crufty gibberish in the first slot. The sheet order was shuffled but no data were changed.
+    
+    The tables that were changed (this is table 199):
+    
+    <pre>
+    0166 0257 0362 0429 0445 0446 0459 0461 0462 0464 0465 0466 0467
+    0469 0479 0480 0481 0482 0483 0484 0485 0486 0487 0559 0628 0629
+    1144 1227 1231
+    </pre>
+    
+    This dataset consists of a table of 33 rows and 10 columns.
+    
+    
+    See headnote, Table 197. Body Mass Index (BMI) is a measure that adjusts body weight for height. It is calculated as weight in kilograms divided by height in meters squared. For both men and women, underweight is indicated by a BMI under 18.5; healthy weight is indicated by a BMI greater than or equal to 18.5 and less than 25.0; overweight is indicated by a BMI greater than or equal to 25.0 and less than 30.0; obesity is indicated by a BMI greater than or equal to 30.0. Based on the National Health and Nutrition Examination Survey
+    
+    h3. Footnotes
+    # Total includes other race/ethnicities not shown separately and persons with unknown race/ethnicity.
+    # Estimates for age groups are not age adjusted.
+    # Education is shown only for persons 25 years old and over.
+  license:
+    id:              11
+    title:           Public Domain (Government Work)
+    link:            ~
+    url:             "http://infochimps.com/licenses/public-domain-government-work"
+    description: >-
+      This dataset was prepared by the government and is therefore in the public domain.  There are no restrictions upon its use.
+    created_at:          "2009-05-12 14:31:01 UTC"
+    updated_at:          "2010-12-08 19:53:40 UTC"  
+  sources:
+
+    - id:              1
+      title:           Census Bureau
+      link:            "http://www.census.gov/statab/www"
+      url:             "http://infochimps.com/sources/census-bureau"
+      description: >-
+        U.S. Census Bureau,
+        Statistical Abstract of the United States: 2008 (127th Edition)
+        Washington, DC, 2007;
+        "http://www.census.gov/statab/www/":http://www.census.gov/statab/www
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"
+
+    - id:              2
+      title:           Philip (flip) Kromer
+      link:            "http://infochimp.org/flip"
+      url:             "http://infochimps.com/sources/philip-flip-kromer"
+      description: >-
+        Please add a description to this source.
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"

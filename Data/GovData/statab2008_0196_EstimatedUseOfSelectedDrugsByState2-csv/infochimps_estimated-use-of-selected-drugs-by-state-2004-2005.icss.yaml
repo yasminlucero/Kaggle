@@ -1,0 +1,105 @@
+---
+infochimps_schema:
+  title: Infochimps Simple Schema (ICSS)
+  version: 0.2.0
+  generated_at: Wed Feb 09 14:22:51 -0600 2011
+  url: "http://infochimps.com/datasets/estimated-use-of-selected-drugs-by-state-2004-2005"
+  description: >-
+    This is an Infochimps Simple Schema (ICSS).
+
+    It describes data on Infochimps.com and is meant to be both human
+    and machine readable.
+
+    An ICSS file is distributed with every download on Infochimps and
+    is also available by request to the above URL.
+    
+    ICSS files bundled with downloads are generated at the time the
+    download was created so they can become out of date as changes are
+    made to the data.  If this ICSS came with data you downloaded then
+    it is possible that it is already out of date.  You can get the
+    most recent version at the URL above.
+
+dataset:
+  id:                  196
+  slug:                estimated-use-of-selected-drugs-by-state-2004-2005
+  title:               "Estimated Use of Selected Drugs by State: 2004-2005"
+  link:                ~
+  url:                 "http://infochimps.com/datasets/estimated-use-of-selected-drugs-by-state-2004-2005"
+  created_at:          ~
+  updated_at:          "2010-03-11 08:40:45 UTC"  
+  tag_list:          [ america,census,demographics,drugs,estimated,government,population,selected,state,use ]
+  category_list:     [ ~ ]
+  created_by:
+    id:                2  
+    username:          Infochimps
+    institution:       Infochimps
+    link:              "http://blog.infochimps.org"
+    url:               "http://infochimps.com/users/2"
+  description: >-
+    The Statistical Abstract files are distributed by the "US Census Department":http://www.census.gov/population/www/popdata.html as Microsoft Excel files. These files have data mixed with notes and references, multiple tables per sheet, and, worst of all, the table headers are not easily matched to their rows and columns.
+    
+    A few files had extraneous characters in the title. These were corrected to be consistent. A few files have a sheet of crufty gibberish in the first slot. The sheet order was shuffled but no data were changed.
+    
+    The tables that were changed (this is table 196):
+    
+    <pre>
+    0166 0257 0362 0429 0445 0446 0459 0461 0462 0464 0465 0466 0467
+    0469 0479 0480 0481 0482 0483 0484 0485 0486 0487 0559 0628 0629
+    1144 1227 1231
+    </pre>
+    
+    This dataset consists of a table of 62 rows and 11 columns.
+    
+    
+    19,396 represents 19,396,000. Data in this table cover a 2 year period. Data is based on the National Survey on Drug Use and Health (NSDUH). Current users are those persons 12 years old and over who used drugs at least once within month prior to this study. Based on national sample of respondents (see also headnote, Table 195). The state estimates were produced by combining the prevalence rate based on the state sample data and the prevalence rate based on a national regression model applied to local-area county and census block group/tract-level estimates from the state (i.e., a survey-weighted hierarchical Bayes estimation approach). The parameters of the regression model are estimated from the entire national sample. For comparison purposes, the data shown here display estimates for all 50 states and the District of Columbia utilizing the modeled estimates for all 51 areas
+    
+    h3. Footnotes
+    # Illicit Drugs include marijuana/hashish, cocaine (including crack), heroin, hallucinogens,
+    inhalants, or prescription-type psychotherapeutics used nonmedically. Illicit Drugs Other
+    Than Marijuana include cocaine (including crack), heroin, hallucinogens, inhalants, or
+    prescription-type psychotherapeutics used nonmedically.
+    # Binge Alcohol Use is defined as drinking five or more drinks on the same occasion
+    (i.e., at the same time or within a couple of hours of each other) on at least 1 day
+    in the past 30 days.
+  license:
+    id:              11
+    title:           Public Domain (Government Work)
+    link:            ~
+    url:             "http://infochimps.com/licenses/public-domain-government-work"
+    description: >-
+      This dataset was prepared by the government and is therefore in the public domain.  There are no restrictions upon its use.
+    created_at:          "2009-05-12 14:31:01 UTC"
+    updated_at:          "2010-12-08 19:53:40 UTC"  
+  sources:
+
+    - id:              1
+      title:           Census Bureau
+      link:            "http://www.census.gov/statab/www"
+      url:             "http://infochimps.com/sources/census-bureau"
+      description: >-
+        U.S. Census Bureau,
+        Statistical Abstract of the United States: 2008 (127th Edition)
+        Washington, DC, 2007;
+        "http://www.census.gov/statab/www/":http://www.census.gov/statab/www
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"
+
+    - id:              2
+      title:           Philip (flip) Kromer
+      link:            "http://infochimp.org/flip"
+      url:             "http://infochimps.com/sources/philip-flip-kromer"
+      description: >-
+        Please add a description to this source.
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"
+
+    - id:              783
+      title:           Substance Abuse and Mental Health Services Administration
+      link:            ~
+      url:             "http://infochimps.com/sources/substance-abuse-and-mental-health-services-administration"
+      description: >-
+        U.S. Substance Abuse and Mental Health Services Administration,
+        Uniform Facility Data Set (UFDS): Annual surveys for 1995-1999, and 2000-2006.
+        __referenced on dataset section Data (#1)__
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:41 UTC"

@@ -1,0 +1,61 @@
+Table 193. Current Cigarette Smoking by Sex and State: 2005,,,,,,
+,,,,,,
+,,,,,,
+"Source: U.S. Centers for Disease Control and Prevention, Atlanta, GA,",,,,,,
+"Morbidity and Mortality Weekly Report, Vol. 55, No. 42, (accessed 8 June 2007.",,,,,,
+[See notes],,,,,,
+,,,,,,
+,Office,5-DIGIT,2-DIGIT,,,
+State,abbreviation,FIPS,FIPS,Total,Male,Female
+"United States",U.S.,00000,00,20.6,22.1,19.2
+Alabama,AL,01000,01,24.8,29.5,20.5
+Alaska,AK,02000,02,25,27.9,22
+Arizona,AZ,04000,04,20.4,22,18.8
+Arkansas,AR,05000,05,23.5,25.2,21.9
+California,CA,06000,06,15.2,19.2,11.3
+Colorado,CO,08000,08,19.9,21.6,18.1
+Connecticut,CT,09000,09,16.5,16.9,16.2
+Delaware,DE,10000,10,20.7,22.5,19
+District of Columbia,DC,11000,11,20.1,22.9,17.6
+Florida,FL,12000,12,21.6,24.8,18.7
+Georgia,GA,13000,13,22.2,25,19.4
+Hawaii,HI,15000,15,17.1,19.3,15
+Idaho,ID,16000,16,17.9,19.7,16.2
+Illinois,IL,17000,17,19.9,21.2,18.7
+Indiana,IN,18000,18,27.3,29.7,25.1
+Iowa,IA,19000,19,20.4,21.8,19.1
+Kansas,KS,20000,20,17.8,18.9,16.8
+Kentucky,KY,21000,21,28.7,30.6,26.9
+Louisiana,LA,22000,22,22.6,24.6,20.6
+Maine,ME,23000,23,20.9,22.4,19.5
+Maryland,MD,24000,24,19,19.7,18.4
+Massachusetts,MA,25000,25,18.1,18.1,18
+Michigan,MI,26000,26,22.1,24.1,20.2
+Minnesota,MN,27000,27,20,21,19.1
+Mississippi,MS,28000,28,23.7,25.9,21.7
+Missouri,MO,29000,29,23.4,24.9,22.1
+Montana,MT,30000,30,19.2,19.3,19.1
+Nebraska,NE,31000,31,21.3,23.4,19.2
+Nevada,NV,32000,32,23.1,25.2,20.9
+New Hampshire,NH,33000,33,20.5,20.4,20.5
+New Jersey,NJ,34000,34,18.1,19.6,16.8
+New Mexico,NM,35000,35,21.5,24.4,18.8
+New York,NY,36000,36,20.5,23,18.2
+North Carolina,NC,37000,37,22.7,25.6,19.9
+North Dakota,ND,38000,38,20,21.5,18.6
+Ohio,OH,39000,39,22.3,21.9,22.8
+Oklahoma,OK,40000,40,25.1,26.5,23.8
+Oregon,OR,41000,41,18.5,20.6,16.5
+Pennsylvania,PA,42000,42,23.7,25,22.5
+Rhode Island,RI,44000,44,19.8,19.4,20.1
+South Carolina,SC,45000,45,22.6,25.3,20.1
+South Dakota,SD,46000,46,19.8,20.4,19.2
+Tennessee,TN,47000,47,26.8,29.3,24.5
+Texas,TX,48000,48,20,23.3,16.8
+Utah,UT,49000,49,11.5,13.7,9.3
+Vermont,VT,50000,50,19.3,21.6,17
+Virginia,VA,51000,51,20.6,21.5,19.7
+Washington,WA,53000,53,17.6,19.1,16.1
+West Virginia,WV,54000,54,26.6,27.4,26
+Wisconsin,WI,55000,55,20.8,22.1,19.5
+Wyoming,WY,56000,56,21.3,20.5,22.1

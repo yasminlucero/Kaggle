@@ -1,0 +1,92 @@
+---
+infochimps_schema:
+  title: Infochimps Simple Schema (ICSS)
+  version: 0.2.0
+  generated_at: Wed Feb 09 14:22:58 -0600 2011
+  url: "http://infochimps.com/datasets/current-cigarette-smoking"
+  description: >-
+    This is an Infochimps Simple Schema (ICSS).
+
+    It describes data on Infochimps.com and is meant to be both human
+    and machine readable.
+
+    An ICSS file is distributed with every download on Infochimps and
+    is also available by request to the above URL.
+    
+    ICSS files bundled with downloads are generated at the time the
+    download was created so they can become out of date as changes are
+    made to the data.  If this ICSS came with data you downloaded then
+    it is possible that it is already out of date.  You can get the
+    most recent version at the URL above.
+
+dataset:
+  id:                  192
+  slug:                current-cigarette-smoking
+  title:               "Current Cigarette Smoking:"
+  link:                ~
+  url:                 "http://infochimps.com/datasets/current-cigarette-smoking"
+  created_at:          ~
+  updated_at:          "2010-03-11 08:40:44 UTC"  
+  tag_list:          [ america,census,cigarette,current,demographics,government,population,smoking ]
+  category_list:     [ "Social Sciences::Demographics::Large Scale Censuses" ]
+  created_by:
+    id:                2  
+    username:          Infochimps
+    institution:       Infochimps
+    link:              "http://blog.infochimps.org"
+    url:               "http://infochimps.com/users/2"
+  description: >-
+    The Statistical Abstract files are distributed by the "US Census Department":http://www.census.gov/population/www/popdata.html as Microsoft Excel files. These files have data mixed with notes and references, multiple tables per sheet, and, worst of all, the table headers are not easily matched to their rows and columns.
+    
+    A few files had extraneous characters in the title. These were corrected to be consistent. A few files have a sheet of crufty gibberish in the first slot. The sheet order was shuffled but no data were changed.
+    
+    The tables that were changed (this is table 192):
+    
+    <pre>
+    0166 0257 0362 0429 0445 0446 0459 0461 0462 0464 0465 0466 0467
+    0469 0479 0480 0481 0482 0483 0484 0485 0486 0487 0559 0628 0629
+    1144 1227 1231
+    </pre>
+    
+    This dataset consists of a table of 53 rows and 7 columns.
+    
+    
+    In percent. Prior to 1992, a current smoker is a person who has smoked at least 100 cigarettes and who now smokes. Beginning 1992, definition includes persons who smoke only "some days". Excludes unknown smoking status. Based on National Health Interview Survey; for details, see Appendix III
+    
+    h3. Footnotes
+    # Data prior to 1997 are not strictly comparable with data for later years
+    due to the 1997 questionnaire redesign.
+    # Estimates are age adjusted to the year 2000 standard using five age groups: 18 to 24 years,
+    25 to 34 years, 35 to 44 years, 45 to 64 years, 65 years and over.
+    # Data have a relative standard error of 20-30 percent.
+  license:
+    id:              11
+    title:           Public Domain (Government Work)
+    link:            ~
+    url:             "http://infochimps.com/licenses/public-domain-government-work"
+    description: >-
+      This dataset was prepared by the government and is therefore in the public domain.  There are no restrictions upon its use.
+    created_at:          "2009-05-12 14:31:01 UTC"
+    updated_at:          "2010-12-08 19:53:40 UTC"  
+  sources:
+
+    - id:              1
+      title:           Census Bureau
+      link:            "http://www.census.gov/statab/www"
+      url:             "http://infochimps.com/sources/census-bureau"
+      description: >-
+        U.S. Census Bureau,
+        Statistical Abstract of the United States: 2008 (127th Edition)
+        Washington, DC, 2007;
+        "http://www.census.gov/statab/www/":http://www.census.gov/statab/www
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"
+
+    - id:              2
+      title:           Philip (flip) Kromer
+      link:            "http://infochimp.org/flip"
+      url:             "http://infochimps.com/sources/philip-flip-kromer"
+      description: >-
+        Please add a description to this source.
+      created_at:          "2008-04-04 12:00:00 UTC"
+      updated_at:          "2010-03-11 08:50:40 UTC"

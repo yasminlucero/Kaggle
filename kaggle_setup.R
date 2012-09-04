@@ -5,10 +5,11 @@
 ## August 25 2012 
 
 rm(list=ls())
+setwd("~/Work/Kaggle/Data/")
 library("RSQLite")
 
 m = dbDriver("SQLite")
-con <- dbConnect(m, dbname = "Data/compDataAsSQLiteDB/compData.db")
+con <- dbConnect(m, dbname = "compDataAsSQLiteDB/compData.db")
 
 # get smoking status query
 q1 <- dbSendQuery(con, "select * from training_smoke")
@@ -41,3 +42,6 @@ dbClearResult(q4)
 
 # clean up
 dbDisconnect(con)
+
+setwd("~/Work/Kaggle/")
+

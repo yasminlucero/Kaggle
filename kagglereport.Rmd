@@ -4,6 +4,46 @@ Introduction
 ------------------
 How well does the EHR population represent the general population of the United States? In which specific areas doe we expect EHR to misrepresent the general population?
 
+Results
+------------------
+How well does the EHR population represent the general population? This first figure show the proportion of the EHR population in each state vs the proportion of the U.S. population in each state. I have also added the 1:1 line, so that those states above the line are over-represented and those below are under-represented. You see that EHR isn't a terrible representation of the general population, but there is a tendency to under-represent the smaller states and over-represent the larger states. In particular the largest state (California) is dramatically over-represented.
+![Figure 1.](figs/figsSep5/figPop.png)
+I have also added the proportion of diabetics and smokers from the general population (hat tip to the CDC). We see that those states with the most extreme rates of smoking and diabetes tend to be under-represented in the EHR population. But, this is likely just a regression to the mean phenomenon.
+
+In general, the EHR population is much more likely to be diabetic than the general population. But, less likely to be a smoker. Let's compare the rate of smoking in the EHR population vs the general population.
+![Figure 1.](figs/figsSep5/figdiabetes.png)
+
+![Figure 1.](figs/figsSep5/figBMIb.png)
+
+![Figure 1.](figs/figsSep5/figAgeb.png)
+Keep in mind, only about half of the diabetics in the EHR populatin are obese (BMI>30). Also, the majority of obese patients in the EHR data are not diabetic. This is true even at the highest BMI levels. 
+
+![Figure 1.](figs/figsSep5/figObese.png)
+
+## Smoking
+
+The EHR population smokes less than that general population (x% vs x% is the nation average). There are at least two ways the EHR population under-represents smokers: First, there are more women than men in the EHR population and women smoke less. Second, California is over-represented in this population, and California also has one of the lowest rates of smoking in the country. Still, a state by state comparison broken out by Gender shows that even after accounting for state and gender, the EHR population still smokes less than the general population. This may be evidence of a socioeconomic bias in the population, i.e. low socioeconomic status leads to more smoking and less going to the doctor.
+![Figure 2.](figs/figsSep5/figSmokes.png)
+States where EHR smoking rate higher than general rate by gender:
+
+State         | Gender| # EHR patients | EHR smoke rate | general smoke rate
+--------      |--- | -------------    |-------- |------
+Alabama       |F| 41 |0.56 |0.30
+Hawaii        |F| 2 | 0.50 | 0.19
+Idaho         |F| 100 |0.37 | 0.20
+Kansas        |F| 25 | 0.24 | 0.19
+Maryland      |F| 36 | 0.20 |0.20
+Mississippi   |F| 18 |0.67 | 0.26
+Ohio          |F| 298 |0.28 | 0.22
+W. Virginia   |F| 23 |0.39| 0.27
+Alabama       |M| 33 |0.48| 0.20
+Hawaii        |M| 6 |0.25| 0.15
+Michigan      |M| 153 |0.40| 0.20
+New Hampshire |M| 46 |0.23| 0.21
+New Jersey    |M| 234 |0.19| 0.17
+New York      |M| 228 |0.20| 0.18
+Ohio          |M| 217 |0.35|0.23
+
 Methods
 -------------------
 ### Data Sources
@@ -28,3 +68,5 @@ Issues
 1. Some data for minors was included in data set. If you subtract YearOfBirth from VisitYear (excluding records where VisitYear=0) you find 819 records for minors. The youngest individual being 15 years old. This is presumably why there are records from Pediatricians in the dataset. I assume this was unintentional. 
 
 2. We have several records for individuals less than three feet tall or greater than nine feet tall. Also folks who weight less than fifty pounds or greater than 600 pounds. 
+
+3. Nixed all of the records for Puerto Rico

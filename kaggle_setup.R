@@ -40,6 +40,13 @@ d4 <- fetch(q4, n = -1)
 dbHasCompleted(q4)
 dbClearResult(q4)
 
+# get patient
+q5 <- dbSendQuery(con, "select * from training_patient")
+d5 <- fetch(q5, n = -1)
+dbHasCompleted(q5)
+dbClearResult(q5)
+
+
 # clean up
 dbDisconnect(con)
 

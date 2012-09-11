@@ -6,11 +6,16 @@
 ## Sept 4 2012
 
 ## environment setup
-# rm(list=ls())
-# setwd("~/Work/Kaggle/")
+rm(list=ls())
+setwd("~/Work/Kaggle/")
+require(car)
 # source("kaggle_setup.R")
- source("govdata.R")
-# source("d2.R")
+d1 = read.csv("Data/d1.csv")
+d2 = read.csv("Data/d2.csv")
+d3 = read.csv("Data/d3.csv")
+d4 = read.csv("Data/d4.csv")
+d5 = read.csv("Data/d5.csv")
+source("govdata.R")
 
 # state region names
 tmp = state.df[,1:4]
@@ -84,3 +89,8 @@ general.smokingF.division = aggregate(smokers.female*weights~state.division, dat
 general.popprop.division = aggregate(population~state.division, data=state.df, sum)
 general.popprop.division$population = general.popprop.division$population/sum(state.df$population)
 names(general.popprop.division)[2] = "popprop"
+ 
+state.df$obesityRate = state.df$obesityRate/100
+ 
+
+write.csv(state.df, file="data/statedf.csv", row.names=FALSE)

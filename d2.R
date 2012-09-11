@@ -18,7 +18,7 @@ d2$dmIndicator2 = recode(d2$dmIndicator, "TRUE='diabetic'; FALSE='non-diabetic';
 d2 = subset(d2, State!="PR")
 
 # subsetting
-d2.ss = subset(d2, Weight<400 & Weight>60 & Height>48 & Height<96)
+d2 = subset(d2, Weight<400 & Weight>60 & Height>48 & Height<96)
 
 write.csv(d2, file="Data/d2.csv", row.names=FALSE)
 

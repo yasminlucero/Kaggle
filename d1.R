@@ -36,4 +36,4 @@ quartz()
 par(mar = c(5, 9, 2, 2) + 0.1)
 boxplot(age~Division, d1, col=2, horizontal=TRUE, las=1, varwidth=T, xlab="age (yrs)")
 
-
+write.csv(d1, file="Data/d1.csv", row.names=FALSE)

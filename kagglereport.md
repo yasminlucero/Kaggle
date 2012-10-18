@@ -2,9 +2,12 @@ What Kind of Person Goes to the Doctor:
 ========================================================
 How the population represented in the Electronic Health Records database compares to the general U.S. population
 ------------------------------------------
+<img src="http://i.imgur.com/SuPi8.jpg" width="100" align="left">
+
 By [Yasmin Lucero][yasmin]
 prepared for Kaggle competition: [Practice Fusion Analyze This! 2012---Open Challenge][Kaggle]
 September 10, 2012
+
 
 
 Practice Fusion has released a rich database of de-identified medical records from medical practices that participate in their Electronic Health Record (EHR) system. We would like to use this access to rich and abundant medical data to learn something new, or at least interesting. The first inferential step is puttting the EHR patient population into the context of the general population. What sort of people are these EHR patients?  

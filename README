@@ -1,0 +1,25 @@
+## README.txt
+## Kaggle project directory
+## prepared for Practice Fusion Kaggle competition
+## September 2012
+## contact: yasmin.lucero@gmail.com
+
+1. kagglereport.Rmd - The markdown report file with the webpage text. Autogenerates the below files:
+  kagglereport.md
+  kagglereport.html
+2. kaggle_setup.R - Uses RSQlite package to interface with practice fusion data in sqlite db form. Generates the csv dumps for analysis. 
+3. govdata.R - pulls in government data and prepares a table (Data/statedf.csv)
+4. d2.R - preps data table d2, which has lots of individual patient info
+5. d1.R - preps data table d1, which has 
+6. cdc1.R - preps CDC data for plotting
+7. compare.R - sets up comparison of state and practice fusion data. Updates statedf.csv. Important script. 
+8. smokingSES.R - pulls and plots smoking data for socioeconomic status
+9. plots2.R - has most of the plotting scripts 
+Notes: the individuals figure files are not stored in the git repository.
+10. Data (folder) - 
+  compDataAsSQLiteDB: Practice fusion db
+  d1.csv - d5.csv - Practice fusion data dumps
+  PracticeFusionDataSEtDictionary
+
+  GovData - several sources of government sourced data
+  statedf.csv - gav data table arranged by state

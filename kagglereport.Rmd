@@ -5,7 +5,7 @@ How the population represented in the Electronic Health Records database compare
 <img src="http://i.imgur.com/SuPi8.jpg" width="100" align="left">
 
 By [Yasmin Lucero][yasmin]
-prepared for Kaggle competition: [Practice Fusion Analyze This! 2012---Open Challenge][Kaggle]
+prepared for Kaggle competition: [Practice Fusion Analyze This! 2012---Open Challenge][Kaggle]. Scripts and notes available on [my github][github].
 September 10, 2012
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE}
@@ -126,3 +126,4 @@ The EHR population is biased towards middle-aged people carrying substantially m
 [doctorvisitsSES]:http://www.rwjf.org/pr/product.jsp?id=54208
 [kaggle]: https://www.kaggle.com/c/pf2012-at
 [yasmin]: https://sites.google.com/site/yasminlucero/
+[github]: https://github.com/yasminlucero/Kaggle

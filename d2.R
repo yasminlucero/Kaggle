@@ -14,10 +14,10 @@ d2$age.bin = cut(as.numeric(d2$age), c(10, 30, 45, 65, 100), c("18-29","30-44", 
 d2$Gender2 = recode(d2$Gender, "'M'='Men'; 'F'='Women'; else=NA")
 d2$dmIndicator2 = recode(d2$dmIndicator, "TRUE='diabetic'; FALSE='non-diabetic'; else=NA")
 
-# subsetting
+# subsetting: ditch Puerto Rico
 d2 = subset(d2, State!="PR")
 
-# subsetting
+# subsetting: toss out extreme weight/height measures
 d2 = subset(d2, Weight<400 & Weight>60 & Height>48 & Height<96)
 
 write.csv(d2, file="Data/d2.csv", row.names=FALSE)
